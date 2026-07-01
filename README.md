@@ -17,10 +17,10 @@ To overcome these limitations, this project implements an optimal state-space Ka
 ---
 
 ## Repository Structure
-* **matlab/**
+* **Comparative_Study/**
     * `simulation.m`: Baseline simulation scripts comparing convergence curves and steady-state misalignment across LMS, RLS, and Kalman variants.
     * `simulation_shock.m`: Evaluation script modeling transient response and recovery behavior following an instantaneous change in the acoustic path.
-* **verilog/**
+* **Hardware_simulation/**
     * `kalman_anc_core.v`: Synthesizable top-level Verilog core integrating the control FSM, memory management logic, fixed-point MAC engine, and divider interfaces.
     * `tb_kalman.v`: Testbench file feeding discrete impulse data into the core to verify clock-cycle accurate state transitions and output generation.
 
