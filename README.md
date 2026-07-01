@@ -1,4 +1,3 @@
-# Active-Noise-Cancellation-through-Kalman-filer
 # Hardware-Software Co-Design of Kalman Filters for Active Noise Control
 
 ## Project Overview
